@@ -7,3 +7,35 @@ body{
     padding: 0;
     margin: 0;
 }
+
+li{
+    list-style-type: none;}
+
+/*logo*/
+h1{
+font-family: 'Fjalla One', sans-serif;
+font-size: 30px; 
+float: left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar*/
+nav{
+    position:fixed; 
+    background-color: #FAF9F6;
+    width: 100%;
+}
+
+nav li{
+    float:right; 
+    display: inline; 
+    padding: 20px;
+}  
+ 
+nav a:hover{
+    font-weight: bold;
+}
