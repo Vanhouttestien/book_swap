@@ -30,6 +30,7 @@ nav{
     background-color: #1e1d1c;
     width: 100%;
     top:0;
+    z-index: 100;
 }
 
 nav li{
@@ -64,8 +65,8 @@ nav a:hover{
 /*about us*/
 #about_us{
     padding: 10em;
-
 }
+
 #about_us p{
     width: 50%;
     text-align: justify;
