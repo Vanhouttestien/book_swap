@@ -60,3 +60,14 @@ nav a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*about us*/
+#about_us{
+    padding: 10em;
+
+}
+#about_us p{
+    width: 50%;
+    text-align: justify;
+    line-height: 2;
+}
