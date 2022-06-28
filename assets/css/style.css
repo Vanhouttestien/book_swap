@@ -34,7 +34,7 @@ nav{
 nav li{
     float:right; 
     display: inline; 
-    padding: 15px 30px;
+    padding: 1rem 2rem;
 }  
  
 nav a:hover{
@@ -116,4 +116,27 @@ text-align: center;
 
 #social-networks i{
     color:#e8e6da;
+}
+
+
+/*media queries*/ 
+
+
+/*for medium screen sizes from 950px - 1200px*/
+
+
+
+@media screen and (max-width: 1200px){
+    
+}
+
+
+/*for medium screen sizes from 950px wide and down*/
+
+@media screen and (max-width: 950px) {
+    #about_us_text{
+        width: 80%;
+    }
+    #events{
+        background-position: center;
 }
