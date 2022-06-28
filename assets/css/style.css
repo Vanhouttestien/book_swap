@@ -103,8 +103,6 @@ text-align: center;
 
 #events p,h3{text-align: center;}
 
-#events i{
-    color: #1e1d1c;
 
 }
 
@@ -139,4 +137,5 @@ text-align: center;
     }
     #events{
         background-position: center;
+        padding: 2rem;
 }
