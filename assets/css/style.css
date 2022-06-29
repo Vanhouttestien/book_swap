@@ -51,7 +51,7 @@ nav a:hover{
 /* hero image*/
 .hero-image {
     height: 800px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/book-794978_640.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/book-794978_640.jpg);
     background-size: cover;
     background-position: center;
 }
