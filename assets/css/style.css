@@ -51,8 +51,9 @@ nav a:hover{
 /* hero image*/
 .hero-image {
     height: 800px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/book-794978_640.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/book-794978_640.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 /* Place text in the middle of the image */
@@ -98,7 +99,7 @@ nav a:hover{
 #events{
     padding: 10rem;
     color: #1e1d1c;
-    background-image: url(../images/calender\ background.jpg);
+    background-image: url(../images/calender_background.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -109,7 +110,9 @@ padding-top: 10%;
 text-align: center;
 }
 
-#events p,h3{text-align: center;}
+#events p,h3{
+    text-align: center;
+}
 
 /*social media links*/
 
@@ -121,6 +124,7 @@ text-align: center;
 
 footer{
 height: 200px;
+
 }
 
 #social-networks i{
@@ -144,6 +148,7 @@ height: 200px;
 @media screen and (max-width: 950px) {
   
 /*navbar update*/
+h2{padding: 120px 0 0 0;}
     .navbar_text{
        visibility: hidden;
        font-size: 0;
@@ -164,6 +169,10 @@ height: 200px;
         text-align: left;
     }
 
+    h1 a{
+        font-size: 30px;    
+    }
     #events{
-       padding:10rem 2rem;}
+       padding:10rem 2rem;
+    }
     }
