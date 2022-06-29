@@ -217,6 +217,7 @@ footer {
         justify-content: center;
         padding: 0;
         float: none;
+        flex-direction: row-reverse;
     }
     
     #about_us_text {
@@ -234,12 +235,19 @@ footer {
         padding: 10rem 2rem;
     }
 
-    #form {
-        width: 50%;
+#form {
+        width: auto;
         text-align: center;
-        margin: 0;
-        border-radius: 20%;
+        margin: auto;
+        border-radius: 20%;        
 }
+
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 input {
     display: block;
     margin-left: auto;
