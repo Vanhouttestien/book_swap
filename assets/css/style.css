@@ -116,10 +116,17 @@ text-align: center;
 
 /*social media links*/
 
-#social-networks{
-    display: flex; 
-    justify-content:space-between;
-    margin: 0 40%;
+#social_networks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0;
+
+}
+
+#social_networks li{
+   width: 5%;
 }
 
 footer{
