@@ -12,7 +12,7 @@
         <nav>
             <h1><a href="index.html">Kids Book Swap</a></h1> 
             <ul >
-                <li><a  class="navbar_text" href="#home">Register </a><a class="navbar_symbool" href="#home"><i class="fa-solid fa-pen"></i></a></li>
+                <li><a  class="navbar_text" href="#form">Register </a><a class="navbar_symbool" href="#home"><i class="fa-solid fa-pen"></i></a></li>
                 <li><a class="navbar_text" href="#events">Upcoming Events </a><a class="navbar_symbool" href="#events"><i class="fa-solid fa-calendar-days"></i> </a></li>
                 <li><a class="navbar_text" href="#about_us_text">About </a><a class="navbar_symbool" href="#about_us_text"><i class="fa-solid fa-circle-info"></i></a></li>
                 <li><a class="navbar_text" href="#home">Home </a><a class="navbar_symbool" href="#home"><i class="fa-solid fa-house"></i></a></li>
@@ -70,25 +70,41 @@
             <label for="fname">First Name</label>
             <input type="text" name="fname" id="fname">
             <label for="lname">Last Name</label>
-            <input type="text" name="lname" id="lname">
+            <input type="text" name="ln ame" id="lname">
             <label for="email">Email Address</label>
             <input type="email" name="" id="">
-            <div id="events_form"> <input type="radio" name="" id="">
-            <p>Would you like to enroll in a event?</p>
-            <label for="8_8">French 0-6, 8/8/2022</label>
-            <input type="radio" name="8_8" id="8_8">
-
-            <label for="22_8">English 12+, 22/8/2022</label>
-            <input type="radio" name="" id="22_8">
             
-            <label for="">Dutch 6-12, 12/9/2022 </label>
-            <input type="radio" name="" id="">
-            
-            <label for="22_9">French 12+, 22/9/2022</label></div>
-            <input type="radio" name="" id="">
-
-            <label for="number_people"></label>
-            <input type="number" name="" id="">
+            <br>
+            <p></p>
+            <label for="eventdate">For which event would you like to register?</label>
+        </div>
+        <div class="event_dates">
+          <select id="eventdate" name="eventdate">
+            <option value="french_0_6">French 0-6, 8/8/2022</option>
+            <option value="english_12+">English 12+, 22/8/2022</option>
+            <option value="dutch_6_12">Dutch 6-12, 12/9/2022</option>
+            <option value="french_12+">French 12+, 22/9/2022</option>
+          </select>
+        </div>
+        <label for="eventdate">ith how many would you be attending?</label>
+            <br>
+            <div class="event_dates">
+                <select id="eventdate" name="eventdate">
+                  <option value="french_0_6">1</option>
+                  <option value="english_12+">2</option>
+                  <option value="dutch_6_12">3</option>
+                  <option value="french_12+">4</option>
+                  <option value="french_0_6">5</option>
+                  <option value="english_12+">6</option>
+                  <option value="dutch_6_12">7</option>
+                  <option value="french_12+">8+</option>
+                </select>
+              </div>   
+            <br>
+            <p>Questions, ideas or remarks?</p>
+            <textarea id="Questions" name="Questions" placeholder="Write something.." rows="8" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Register">
         </form>
 </section>
 <footer>
