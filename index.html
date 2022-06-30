@@ -25,7 +25,6 @@
             </ul>
         </nav>
 
-        </div>
 
         <div class="hero-image">
             <div class="hero-text">
@@ -33,7 +32,7 @@
                 <p class="typing">Find Books In Your Mothertongue.</p>
             </div>
         </div>
-        </div>
+       
     </header>
     <section id="about_us">
         <div id="about_us_text">
@@ -78,10 +77,10 @@
     </section>
     <section id="form">
         <h2>Registration</h2>
-        <form>
-            <input type="text" name="fname" id="fname" placeholder="Name">
-            <input type="text" name="lname" id="lname" placeholder="Last Namne">
-            <input type="email" name="" id="" placeholder="Email address" ">
+        <form  target="_self" method="get">
+            <input type="text" name="fname" id="fname" placeholder="Name" required>
+            <input type="text" name="lname" id="lname" placeholder="Last Namne" required>
+            <input type="email" name="mail" id="mail" placeholder="Email address" required>
             <select id="eventdate" name="eventdate" >
                 <option value="eventdate"> Select event </option>
                 <option value="french_0_6">French 0-6, 8/8/2022</option>
@@ -89,7 +88,7 @@
                 <option value="dutch_6_12">Dutch 6-12, 12/9/2022</option>
                 <option value="french_12+">French 12+, 22/9/2022</option>
             </select>
-            <select id="eventdate" name="eventdate">
+            <select id="attendees" name="eventdate">
                 <option value="attendees">With how many would you be attending?</option>
                 <option value="french_0_6">1</option>
                 <option value="english_12+">2</option>
@@ -109,14 +108,14 @@
         </form>
     </section>
     <footer>
-        <h3 div="follow_us">follow us:</h3>
+        <h3 class="follow_us">follow us:</h3>
         <ul id="social_networks">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="facebookpage (opens in a new tab)"> <i class="fab fa-facebook"></i></a></li>
             <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
                     aria-label="twitter (opens in a new tab)"> <i class="fab fa-twitter"></i></a></li>
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="instagram (opens in a new tab)"><i class="fab fa-instagram"></a></i></li>
+                    aria-label="instagram (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
         </ul>
 
     </footer>
