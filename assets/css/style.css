@@ -7,12 +7,17 @@ body {
     background-color: #1e1d1c;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 li {
     list-style-type: none;
 }
 
+header{
+    width: 100%;
+}
 /*logo*/
 h1 a {
     font-family: 'Fjalla One', sans-serif;
@@ -60,6 +65,7 @@ nav a:hover {
     animation-name: hero-image;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    overflow: hidden;
 }
 
 /* animation image */ 
@@ -67,11 +73,8 @@ nav a:hover {
     0% {
       transform: scale(2,2);
     }
-    50% {
-      transform: scale(1.5, 1,5);
-    }
     100% {
-      transform: scale(1, 1);
+      transform: scale(1,1);
     }
   }
 /*Typing*/
@@ -102,10 +105,9 @@ nav a:hover {
     white-space: nowrap;
     font-size: 1.6rem;
     width: 0%;
-    animation-delay: 10s;
+    animation-delay: 6s;
     animation-name:  typing; 
     animation-duration:  5s; 
-    animation-direction:  forwards;
     animation-fill-mode: forwards;
 }
 
@@ -118,11 +120,12 @@ nav a:hover {
     padding: 20rem 4rem;
     position: relative;
     justify-content: center;
+    width: 100%;
 }
 
 
 #about_us_text {
-    padding: 10% 5% 10% 0%;
+    padding: 25% 5% 25% 0%;
     text-align: justify;
     line-height: 2;
     width: 50%;
