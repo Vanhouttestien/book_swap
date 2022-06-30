@@ -122,27 +122,26 @@ h3 {
 
 /*form layout*/
 #form {
-    padding: 5em 0em;
+    padding: 20%;
     font-size: 16px;
     font-weight: normal;
-    background-color: #e8e6da;
-    color: #1e1d1c;
-    border-radius: 40%;
+    background-color:#1e1d1c
 }
 
 input {
     display: block;
-    border-radius: 10%;
+    border-radius: 5px;
     border: #1e1d1c solid 1px;
-    width: 50%;
+    width: 100%;
     padding: 20px;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 select {
-    border-radius: 10%;
+    border-radius: 5px;
     border: #1e1d1c solid 1px;
-    width: 50%;
+    width: 100%;
     padding: 20px;
     box-sizing: border-box;
     margin: 20px 0px;
@@ -150,10 +149,10 @@ select {
 
 textarea {
     display: block;
-    border-radius: 10%;
+    border-radius: 5px;
     border: #1e1d1c solid 1px;
-    width: 50%;
-    padding: 10px;
+    width: 100%;
+    padding:20px;
     box-sizing: border-box;
 }
 

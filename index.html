@@ -79,25 +79,18 @@
     <section id="form">
         <h2>Registration</h2>
         <form>
-            <label for="fname">First Name</label>
-            <input type="text" name="fname" id="fname">
-            <label for="lname">Last Name</label>
-            <input type="text" name="ln ame" id="lname">
-            <label for="email">Email Address</label>
-            <input type="email" name="" id="">
-            <br>
-            <label for="eventdate">For which event would you like to register?</label>
-            <br>
-            <select id="eventdate" name="eventdate">
+            <input type="text" name="fname" id="fname" placeholder="Name">
+            <input type="text" name="lname" id="lname" placeholder="Last Namne">
+            <input type="email" name="" id="" placeholder="Email address" ">
+            <select id="eventdate" name="eventdate" >
+                <option value="eventdate"> Select event </option>
                 <option value="french_0_6">French 0-6, 8/8/2022</option>
                 <option value="english_12+">English 12+, 22/8/2022</option>
                 <option value="dutch_6_12">Dutch 6-12, 12/9/2022</option>
                 <option value="french_12+">French 12+, 22/9/2022</option>
             </select>
-<br>
-            <label for="eventdate">With how many would you be attending?</label>
-            <br>
             <select id="eventdate" name="eventdate">
+                <option value="attendees">With how many would you be attending?</option>
                 <option value="french_0_6">1</option>
                 <option value="english_12+">2</option>
                 <option value="dutch_6_12">3</option>
@@ -109,10 +102,10 @@
             </select>
 
             <br>
-            <p>Questions, ideas or remarks?</p>
-            <textarea id="Questions" name="Questions" placeholder="Write something.." rows="8" cols="50"></textarea>
+            <p></p>
+            <textarea id="Questions" name="Questions" placeholder="Questions, ideas or remarks?" rows="8" cols="50"></textarea>
             <br>
-            <input type="submit" value="Register">
+            <input type="submit" value="Send">
         </form>
     </section>
     <footer>
