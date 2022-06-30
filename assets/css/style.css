@@ -170,6 +170,9 @@ h3 {
     position: relative;
 }
 
+#form h2{
+    margin-bottom: 100px;
+}
 input {
     display: block;
     border-radius: 5px;
@@ -183,7 +186,7 @@ input {
     background-color: #e8e6da;
 }
 
-input[ type=submit]{
+form button{
     width: 20%;
     background-color: #e8e6da;
     text-align: center;
