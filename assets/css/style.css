@@ -57,8 +57,27 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     width: 100%;
+    animation-name: hero-image;
+    animation-duration: 20s;
 }
 
+/* animation image */ 
+@keyframes  hero-image{
+    0% {
+      transform: scale(2,2);
+    }
+    50% {
+      transform: scale(1.5, 1,5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+/*Typing*/
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
 /* Place text in the middle of the image */
 
 .hero-text {
@@ -70,12 +89,25 @@ nav a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+  
 .hero-text h2 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 4rem;
-
 }
+
+.typing{ 
+    overflow: hidden;
+    border-right: .15em solid #1e1d1c;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0%;
+    animation-delay: 10s;
+    animation-name:  typing; 
+    animation-duration:  5s; 
+    animation-direction:  forwards;
+    animation-fill-mode: forwards;
+}
+
 
 /*about us*/
 
