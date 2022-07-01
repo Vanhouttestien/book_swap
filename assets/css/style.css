@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+i:hover{
+    font-weight: bold;
+}
+
 li {
     list-style-type: none;
 }
@@ -62,6 +66,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     width: 100%;
+    overflow: hidden;
     animation-name: hero-image;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -122,7 +127,6 @@ nav a:hover {
     width: 100%;
     margin-top: 10%;
     margin-bottom: 10%;
- 
 }
 
 
@@ -136,12 +140,11 @@ nav a:hover {
 #img_about {
     width: 400px;
     object-fit: contain;
-    
+    overflow: hidden;
 }
 
 /*events*/
 #events {
-    padding: 10rem;
     color: #1e1d1c;
     background-image: url(../images/calender_background.jpg);
     background-repeat: no-repeat;
@@ -154,16 +157,13 @@ nav a:hover {
     text-align: center;
 }
 
-#events p,
-h3 {
+#events p {
     text-align: center;
 }
 
 /*form layout*/
 #form {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 5% 20%;
+    padding: 11% 20%;
     font-size: 16px;
     font-weight: normal;
     background-color:#1e1d1c;
@@ -244,6 +244,10 @@ footer {
 
 }
 
+footer h3{
+    text-align: center;
+    padding: 5%;
+}
 #social-networks i {
     color: #e8e6da;
     font-size: 18;
@@ -298,6 +302,8 @@ footer {
         float: none;
         flex-direction: row-reverse;
     }
+
+    /*about us*/
     
     #about_us_text {
         width: 70%;
@@ -307,15 +313,19 @@ footer {
     }
 
    
-
-    h1 a {
+/*logo*/
+h1 a {
         font-size: 30px;
     }
 
+    /*events*/
     #events {
-        padding: 10rem 2rem;
+    padding-top: 41%;
+    text-align: center;
     }
 
+
+ /* form*/ 
 #form {
         width: auto;
         text-align: center;
