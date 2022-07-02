@@ -150,6 +150,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
 #event_title {
