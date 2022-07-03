@@ -87,6 +87,7 @@ nav a:hover {
     from { width: 0 }
     to { width: 100% }
   }
+
 /* Place text in the middle of the image */
 
 .hero-text {
@@ -175,6 +176,7 @@ nav a:hover {
 #form h2{
     margin-bottom: 100px;
 }
+
 input {
     display: block;
     border-radius: 5px;
@@ -255,6 +257,31 @@ footer h3{
     font-size: 18;
 }
 
+/*confitmation page*/
+.thank_you{
+    text-align: center;
+    font-size: 27px;
+}
+
+.looking_forward{
+    text-align: center;
+}
+
+.back_home{
+    width: 15%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.back_home a{
+    text-align: center;
+    color: #1e1d1c;
+}
+
+.back_home:hover{
+    font-weight: bold;
+   
+}
 
 /*media queries*/
 
