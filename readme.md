@@ -1,6 +1,6 @@
 # Kids Book Swap 
 
-The Kids book Swap club in Stockholm is a book club that tries to improve the accessibility of children books in different language's by creating a forum for expat parents and kids to swap their books. With this website we try to better our accessibility so we can attract more people with clear information and a simple sign up form. In this way we can grow and provide more books and towards the future more languages.  
+The Kids book Swap club in Stockholm is a book club that aims to improve the accessibility of childrens books in different languages by creating a forum for expat parents and kids to swap their books. With this website we try to better our accessibility so we can attract more people with clear information and a simple sign up form. In this way we can grow and provide more books and towards the future more languages.  
 
 <img src="assets/images/mockup_screenshot.jpg" alt="Picture of webpage across different devices" width="600px">
 
@@ -11,7 +11,7 @@ The Kids book Swap club in Stockholm is a book club that tries to improve the ac
 
 ## Features
 ### Navigation Bar
-The website is a single page website. So the navigation bar is an essential part of the website. It allows you to move throughout the different parts of the website within excessive scrolling. The navigation bar is also responsive. When the viewport gets smaller the text converts in to symbols that allow for a better layout. 
+The website is a single page website. So the navigation bar is an essential part of the website. It allows you to move throughout the different parts of the website without excessive scrolling. The navigation bar is also responsive. When the viewport gets smaller the text converts into symbols that allow for a better layout. 
 
 On the navigation bar is also the logo. When clicked on it go automatically back to the top of the website.
 
@@ -21,7 +21,7 @@ On the navigation bar is also the logo. When clicked on it go automatically back
 The Hero image tries to create a mystical and creative mood. We want to show the image of how books spark our imagination. 
 
 On the hero image you also find "kids book swap club Stockholm" so you know what we do and we are located in Stockholm. 
-Under this you also get the text find books in your mother tongue so you know it is mend for a expat public. 
+Under this you also get the text "find books in your mother tongue" so you know it is meant for a expat public. 
 
 <img src="assets/images/heroimage.jpg" alt="picture of Heroimage with title" width="600px">
 
@@ -83,6 +83,7 @@ The link can be found here: https://vanhouttestien.github.io/book_swap/
 - [This code](https://css-tricks.com/snippets/css/typewriter-effect/) was adapted and used for the typewriter Effect
 - On the website of the  [w3schools](https://www.w3schools.com/) I found a lot of information and codes for a variety of problems encountered
 - Varies parts of the website were inspired by the love running website from Code institute 
+- code for zoom-in effect of heroimage adpated from https://www.30secondsofcode.org/css/s/zoomin-zoomout-animation
 
 ### others
 - The icons used  are from [font awesome](https://fontawesome.com/)

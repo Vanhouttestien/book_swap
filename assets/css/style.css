@@ -11,7 +11,7 @@ body {
     height: 100%;
 }
 
-i:hover{
+i:hover {
     font-weight: bold;
 }
 
@@ -19,9 +19,10 @@ li {
     list-style-type: none;
 }
 
-header{
+header {
     width: 100%;
 }
+
 /*logo*/
 h1 a {
     font-family: 'Fjalla One', sans-serif;
@@ -59,7 +60,8 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* hero image*/
+
+/* hero image code adapted from https://www.w3schools.com/howto/howto_css_hero_image.asp */
 .hero-image {
     height: 800px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/book-794978_640.jpg);
@@ -73,20 +75,7 @@ nav a:hover {
     overflow: hidden;
 }
 
-/* animation image */ 
-@keyframes  hero-image{
-    0% {
-      transform: scale(2,2);
-    }
-    100% {
-      transform: scale(1,1);
-    }
-  }
-/*Typing*/
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
+
 
 /* Place text in the middle of the image */
 
@@ -99,21 +88,43 @@ nav a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-  
+
 .hero-text h2 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 4rem;
 }
 
-.typing{ 
+/* animation image code adapted  from https://www.30secondsofcode.org/css/s/zoomin-zoomout-animation */
+@keyframes hero-image {
+    0% {
+        transform: scale(2, 2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/*Typing effect code adapted from https://css-tricks.com/snippets/css/typewriter-effect/ */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.typing {
     overflow: hidden;
     border-right: .15em solid #1e1d1c;
     white-space: nowrap;
     font-size: 1.6rem;
     width: 0%;
     animation-delay: 4s;
-    animation-name:  typing; 
-    animation-duration:  5s; 
+    animation-name: typing;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -169,11 +180,11 @@ nav a:hover {
     padding: 11% 20%;
     font-size: 16px;
     font-weight: normal;
-    background-color:#1e1d1c;
+    background-color: #1e1d1c;
     position: relative;
 }
 
-#form h2{
+#form h2 {
     margin-bottom: 100px;
 }
 
@@ -190,16 +201,16 @@ input {
     background-color: #e8e6da;
 }
 
-form button{
+form button {
     width: 20%;
     background-color: #e8e6da;
     text-align: center;
-    position: absolute; 
+    position: absolute;
     right: 20%;
     padding: 20px;
 }
 
-form button:hover{
+form button:hover {
     font-weight: bold;
 }
 
@@ -220,7 +231,7 @@ textarea {
     border-radius: 5px;
     border: #1e1d1c solid 1px;
     width: 100%;
-    padding:20px;
+    padding: 20px;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
     font-size: 18px;
@@ -253,7 +264,7 @@ footer {
     width: 100%;
 }
 
-footer h2{
+footer h2 {
     text-align: center;
 }
 
@@ -263,30 +274,28 @@ footer h2{
 }
 
 /*confirmation page*/
-.confirmation{
+.confirmation {
     display: block;
     text-align: center;
     padding-top: 10%;
 }
 
-.confirmation a{
+.confirmation a {
     color: #1e1d1c;
     font-size: 18px;
 }
 
-.home_button{
+.home_button {
     background-color: #e8e6da;
     padding: 5px 20px;
     border-radius: 5px;
 }
 
-.home_button:hover{
+.home_button:hover {
     font-weight: bold;
 }
 
 /*media queries*/
-
-
 /*for medium screen sizes from 950px - 1200px*/
 
 @media screen and (max-width: 1200px) {
@@ -315,7 +324,7 @@ footer h2{
     h2 {
         padding: 120px 0 0 0;
         display: block;
-        width:100%
+        width: 100%
     }
 
     .navbar_text {
@@ -334,7 +343,7 @@ footer h2{
     }
 
     /*about us*/
-    
+
     #about_us_text {
         width: 70%;
         padding: 0;
@@ -342,43 +351,43 @@ footer h2{
         text-align: left;
     }
 
-   
-/*logo*/
-h1 a {
+
+    /*logo*/
+    h1 a {
         font-size: 30px;
     }
 
     /*events*/
     #events {
-    padding-top: 41%;
-    text-align: center;
+        padding-top: 41%;
+        text-align: center;
     }
 
 
- /* form*/ 
-#form {
+    /* form*/
+    #form {
         width: auto;
         text-align: center;
         margin: auto;
-        border-radius: 20%;        
-}
+        border-radius: 20%;
+    }
 
-form{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    form {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-input {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-textarea {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    textarea {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
