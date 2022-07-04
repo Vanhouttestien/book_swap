@@ -199,6 +199,10 @@ form button{
     padding: 20px;
 }
 
+form button:hover{
+    font-weight: bold;
+}
+
 select {
     border-radius: 5px;
     border: #1e1d1c solid 1px;
@@ -247,18 +251,18 @@ form p {
 footer {
     height: auto;
     width: 100%;
-   
 }
 
-footer h3{
+footer h2{
     text-align: center;
 }
+
 #social-networks i {
     color: #e8e6da;
-    font-size: 18;
+    font-size: 18px;
 }
 
-/*confitmation page*/
+/*confirmation page*/
 .confirmation{
     display: block;
     text-align: center;
@@ -270,7 +274,15 @@ footer h3{
     font-size: 18px;
 }
 
+.home_button{
+    background-color: #e8e6da;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
 
+.home_button:hover{
+    font-weight: bold;
+}
 
 /*media queries*/
 
