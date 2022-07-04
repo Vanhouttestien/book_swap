@@ -240,17 +240,18 @@ form p {
 }
 
 #social_networks li {
+    text-align: center;
     width: 5%;
 }
 
 footer {
-    height: 200px;
-
+    height: auto;
+    width: 100%;
+   
 }
 
 footer h3{
     text-align: center;
-    padding: 5%;
 }
 #social-networks i {
     color: #e8e6da;
@@ -258,30 +259,18 @@ footer h3{
 }
 
 /*confitmation page*/
-.thank_you{
+.confirmation{
+    display: block;
     text-align: center;
-    font-size: 27px;
+    padding-top: 10%;
 }
 
-.looking_forward{
-    text-align: center;
-}
-
-.back_home{
-    width: 15%;
-    margin-left: 40%;
-    margin-right: 40%;
-}
-
-.back_home a{
-    text-align: center;
+.confirmation a{
     color: #1e1d1c;
+    font-size: 18px;
 }
 
-.back_home:hover{
-    font-weight: bold;
-   
-}
+
 
 /*media queries*/
 
