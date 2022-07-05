@@ -53,7 +53,6 @@ In the footer we provide links to our different social media channels. In this w
 
 ## Testing 
 ### Validator Testing 
-
 #### HTML
 
 No errors where found by the official W3C validator
