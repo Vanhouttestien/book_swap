@@ -52,6 +52,21 @@ In the footer we provide links to our different social media channels. In this w
 <img src="assets/images/footer.jpg" alt="picture of footer" width="600px">
 
 ## Testing 
+## manual code testing
+### responsivness
+The responsivness of the website was first tested by chrome developer tools. Different breakpoints where used to view the website. Next to this the website was viewed on different devices. 
+
+### Browser compatbility 
+The website was tested in different browsers and no problems apeared 
+|Browser|compatibility|
+|------------------------------------|-------------|
+|mozilla firefox versie 102.0|no problems|
+|Microsoft Edge Versie 103.0.1264.44|no problems|
+|google chrome Versie 103.0.5060.114 | no problems|
+
+###  
+### 
+
 ### Validator Testing 
 #### HTML
 
