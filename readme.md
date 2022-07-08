@@ -15,12 +15,12 @@ The Kids book Swap club in Stockholm is a book club that aims to improve the acc
 ## User Experience (UX)
 ### User stories
 #### First Time Visitor Goals
-- First time visitors should have i fast understanding what the goal of the organisation is. 
+- First time visitors should have a fast understanding what the goal of the organisation is. 
 - First time visitors need to get the information about what we do and why we do it 
 - First time users should have the ability to find our social media links to get more information 
 - First time users should have the ability to ask questions
 #### Returning Visitor Goals
-- Returning users Should be able to go fast to the event section
+- Returning users should be able to go to the event section quickly
 - Returning users can easily book an event 
 - Returning users should find the links to follow us on social media 
 - Returning users should be able to ask questions or give remarks
@@ -28,9 +28,10 @@ The Kids book Swap club in Stockholm is a book club that aims to improve the acc
 
 ### Design 
 
-For the design we have chosen for a combination of modern and traditional elements. Books are seen as something old, be we want to reimaging them as something that is also fitting in a modern context, something that is hip, cool and fun while maintaining the more traditional library feel. In this way we hope to not only convince the parents but also the children. 
+For the design the choice is made for a combination of modern and traditional elements. Books are seen as something old, be we want to reimaging them as something that is also fitting in a modern context, something that is hip, cool and fun while maintaining the more traditional library feel. In this way we hope to not only convince the parents but also the children. 
 
 1. Images
+
 The hero image was selected first. This was chosen because it is a visual representation of what we wanted to achieve as an organisation. 
 It supports this idea of reading as supporting creativity, imagination and inspiration. 
 
@@ -39,6 +40,7 @@ The image in the about section was chosen to visually represent our target group
 The background to the event section was chosen to give a more old-school calendar feeling. We try in our website to combine more traditional and modern aspects.  
 
 2. Colour Scheme
+
 The colour scheme was chosen based on the hero picture. 
 We choose a darker background and lighter text for creating a cosy, hip and library fitting vibe. 
 
@@ -46,6 +48,7 @@ We choose a darker background and lighter text for creating a cosy, hip and libr
 
 
 3. Typography
+
 For the logo and the text on the hero picture was the font Fjalla One this font has an elegant design. 
 The rest of the text is written in the Merriweather font which was chosen because of its great readability. 
 The fonts are both more traditional design with some modern accents which aligns with the feel of the organization and the website. 
@@ -70,6 +73,7 @@ On the navigation bar is also the logo. When clicked on it go automatically back
 
 <img src="assets/images/nav_bar.jpg" alt="picture of navigation bar" width="600px">
 
+
 ### Hero image and text
 The Hero image tries to create a mystical and creative mood. We want to show the image of how books spark our imagination. 
 
@@ -78,12 +82,14 @@ Under this you also get the text "find books in your mother tongue" so you know 
 
 <img src="assets/images/heroimage.jpg" alt="picture of Hero image with title" width="600px">
 
+
 ### What we do 
 In this section of our webpage we shortly describe why we think reading is important and how we want to support this. We also provide the basic information about our events. 
 
 The text is supported by a picture of a child reading to support the image off reading as a fun and constructive activity.  
 
 <img src="assets/images/what_we_do.jpg" alt="picture of what we do section" width="600px">
+
 
 ### Events 
 In this section we show the upcoming events with the group, place, date and time. 
@@ -103,6 +109,7 @@ With the registration people can sign up for the events and also ask any additio
 In the footer we provide links to our different social media channels. In this way people can get more information and follow us to be kept up to date with our latest news and upcoming events. 
 
 <img src="assets/images/footer.jpg" alt="picture of footer" width="600px">
+
 
 ## Testing 
 ## testing of the user story
@@ -124,16 +131,16 @@ In the footer we provide links to our different social media channels. In this w
 The website is adapted to be seen on different screen sizes. 
 The responsiveness of the website was first tested by chrome developer tools. 
 Different breakpoints where used to view the website. 
-Next to this the website was viewed on different devices. 
+Next to this the website was viewed on different devices: laptop, tablet and smartphones. 
 
 ### Browser compatibility 
 The website was tested in different browsers. 
 
 |Browser| compatibility|
 |------------------------------------|-------------|
-|mozilla firefox versie 102.0|no problems|
+|Mozilla Firefox versie 102.0|no problems|
 |Microsoft Edge Versie 103.0.1264.44|no problems|
-|google chrome Versie 103.0.5060.114 | no problems|
+|Google Chrome Versie 103.0.5060.114 | no problems|
 
 ### Validator Testing 
 1. HTML
@@ -143,10 +150,12 @@ No errors where found by the official W3C validator
 
 <img src="assets/images/html_validation.jpg" alt="picture of W3C validator results" width="600px">
 
+
 2. CSS
 No errors where found by the official Jigsaw validator
 
 <img src="assets/images/css_validation.jpg" alt="picture of Jigsaw validator results" width="600px">
+
 
 ### Fixed bugs 
 - Website had a gap on the right which was visible with a smaller screen size. This was fixed by removing padding from a section. 
